@@ -1,6 +1,7 @@
 import time
 import sqlite3
-import Adafruit_DHTdbname='sensorsData.db'
+import Adafruit_DHT
+dbname='sensorsData.db'
 sampleFreq = 1*60 # time in seconds ==> Sample each 1 min# get data from DHT sensor
 def getDHTdata():	
 	DHT22Sensor = Adafruit_DHT.DHT22
